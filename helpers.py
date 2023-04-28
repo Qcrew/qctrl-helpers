@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Required for stability, without it helper functions can't be imported before qctrl
+import qctrl
 import qctrlcommons
 import qctrlvisualizer
 
